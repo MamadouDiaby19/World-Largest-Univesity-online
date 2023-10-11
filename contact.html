@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>UNIVERSITY</title>
+	<link rel="stylesheet" type="text/css" href="Style.css">
+	<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<!--My header-->
+<section class="sub-header">
+	<nav>
+		 <a href="index.html"> <img src="images/logo.png "></a> 
+		 <div class="nav-links" id="navlinks">
+		 	<i class="fa fa-window-close" onclick="hideMenu()"></i> <!--hide menu by using javascript-->
+
+		 	<!--Awesome close btn-->
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURS</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+
+        </div>
+        <!---Awesome menu btn-->
+        <i class="fa fa-bars" onclick="showMenu()"></i> <!--show menu by using javascript-->
+	</nav>
+	<h1>Contact Us</h1> 
+</section>
+<!-- contact us-->
+<section class="facilities">
+	<h1> Meet your world's class Technology Center</h1>
+	<p>Today internet have crosses every barrier and have changes the way use to talk</p>
+	<div class="row" >
+		<div class="facilities-col">
+			<img src="images/tech1.jfif">
+			<h3>Cloud computing</h3>
+			<p> Sometimes we interchngeably use the therm internet and world wide web or simply the web,
+			as it is popularly known as</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="images/tech2.jfif">
+			<h3>Data science</h3>
+			<p> Sometimes we interchangeably use the term internet and world wide web or simple
+			web,
+			as it is popularly known as</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="images/tech3.jfif">
+			<h3>The Biggest Innovation</h3>
+			<p> Sometimes we interchangeably use the term internet and world wide web or simple
+			web,
+			as it is popularly known as</p>
+			
+		</div>
+		
+		
+
+
+	</div>
+	
+</section>
+
+<section class="facilities">
+	<div class="row" >
+		<div class="facilities-col">
+			<img src="images/tech4.jfif">
+			<h3>Sweetest Meeting</h3>
+			<p> Sometimes we interchngeably use the therm internet and world wide web or simply the web,
+			as it is popularly known as</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="images/tech5.jfif">
+			<h3>Enter into the virtual life</h3>
+			<p> Sometimes we interchangeably use the term internet and world wide web or simple
+			web,
+			as it is popularly known as</p>
+			
+		</div>
+		<div class="facilities-col">
+			<img src="images/tech.jfif">
+			<h3>Having the world in the hand</h3>
+			<p> Sometimes we interchangeably use the term internet and world wide web or simple
+			web,
+			as it is popularly known as</p>
+			
+		</div>
+		
+		
+
+
+	</div>
+	
+</section>
+
+<section class="contact-us">
+	<div class="row">
+		<div class="contact-col">
+			<div>
+				<i class="fa fa-home"></i>
+				<span>
+					<h5>Xyz Road ABC Building</h5>
+					<p> Accra,Ghana,In </p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<span>
+					<h5>+233 235 915</h5>
+					<p> Monday to Friday, 8AM to 6PM </p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-phone"></i>
+				<span>
+					<h5>+233 235 915</h5>
+					<p> Monday to Friday, 8AM to 6PM </p>
+				</span>
+			</div>
+			<div>
+				<i class="fa fa-envelope-o"></i>
+				<span>
+					<h5>kabaabou120@gmail.com</h5>
+					<p> Email Us your query </p>
+				</span>
+			</div>
+
+		</div>
+		<!--Contact form--->
+		<div class="contact-col">
+			<!---connect php form to html form--->
+			<form action="formhandle.php" method="post"><br>
+				<input type="text" name="name" placeholder="Enter your Name" required><br>
+				<input type="Email" name="Email" placeholder=" Enter Email Address" required><br>
+				<input type="text" name="Subject" placeholder=" Subject" required><br>
+				<textarea rows="8" name="Message" placeholder="Message" required></textarea><br>
+				<button type="Submit" class="hero-btn red-btn">Send Message</button><br>
+
+			</form>
+		</div>
+	</div>
+</section>
+<!--Footer-->
+ <section class="footer" class="bg-dark-1">
+    <h4>ABOUT US</h4>
+    <p> >The call were very costly.ISD and STD were used to pass on urgent message only paste in the<br> embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.<br>
+                   To make your document look professionally produced, Word provides header, footer, cover page,<br> and text box designs that complement each other
+        
+    </p>
+     <div class="icons">
+
+         <a href="#" class="fa fa-facebook"></a>
+         <a href="#" class="fa fa-twitter"></a>
+         <a href="#" class="fa fa-linkdin"></a>
+         <a href="#" class="fa fa-instagram"></a>
+     </div>
+     <p> mode with <i class="fa fa-heart-o"> by technology center</i></p>
+
+ </section>
+ <!---javascript for toggle menu-->
+ <script>
+     var navlinks= document.getElementById("navlinks");
+     function showMenu() {
+         navlinks.style.right="0"
+     }
+     function hideMenu() {
+        navlinks.style.right="-200px" 
+     }
+
+ </script>
+ </body>
+ </html>
